@@ -55,6 +55,7 @@
       <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         <img class="masthead-avatar mb-3" src="assets/img/timmcircle.png" alt="..." />
+        <!-- <img class="masthead-avatar mb-3" src="assets/img/timmcode-small.png" alt="..." /> -->
         <!-- Masthead Heading-->
         <h1 class="masthead-heading text-uppercase mb-0">Timm Snow</h1>
         <!-- Icon Divider-->
@@ -67,6 +68,54 @@
         <h4 class="masthead-subheading text-secondary mb-0 mt-0">Software Engineer - Web Designer - Graphic Artist</h4>
       </div>
     </header>
+    <!-- About Section-->
+    <section class="page-section bg-secondary text-white mb-0" id="about">
+      <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="far fa-address-card"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <div class="row">
+            <img class="img-fluid m-auto mb-5" src="assets/img/timmscubawho.jpg" style="width: 80%; border: 2px solid white; padding: 12px;" alt="..." />        </div>
+        <!-- About Section Content-->
+        <div class="row mb-5">
+          <div class="col-lg-5 ms-auto mb-5">
+            <p class="lead">
+              I'm a Full-stack web developer with a penchant for underwater exploration who's motivated by the dynamic
+              capabilities of coding. I believe that we can change the world with the power of CODE. There is an
+              infinite need for code and infinite ways it can be applied. I am extremely motivated by the enumerable
+              possibilities, and by the projects and initiatives that can be undertaken with the right tools and the
+              right mindest.
+            </p>
+          </div>
+          <div class="col-lg-5 me-auto">
+            <p class="lead">
+              Tech is an industry, but it
+              <strike>can</strike>
+              <strike>should</strike>
+              MUST also be a gateway. There is no reason why we cannot marry the pursuit of innovation with the values
+              of humanity. I want to strive to contribute to the greater good of our planet. I want tech to lift up and
+              empower communities across the globe. I want tech to work for all of us, for a more equitable future...
+              and I'm ready to work with anyone that's trying to do the same.
+            </p>
+          </div>
+          <div class="row justify-content-center">
+          <div class="col-lg-10"><p class="lead">I specialize in front-end web development and design. Think: HTML, CSS, Javascript and all the libraries and frameworks that come with it. I am available to take clients interested in building dynamic web applications on a contract basis. Got a project in mind? <a href="#contact">Contact Me</a></p></div>
+          </div>
+        </div>
+        <!-- About Section Button-->
+        <!-- <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+            <i class="fas fa-download me-2"></i>
+            Free Download!
+          </a>
+        </div>
+      </div> -->
+    </section>
     <!-- Portfolio Section-->
     <section class="page-section portfolio" id="portfolio">
       <div class="container">
@@ -156,51 +205,6 @@
         </div>
       </div>
     </section>
-    <!-- About Section-->
-    <section class="page-section bg-secondary text-white mb-0" id="about">
-      <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="far fa-address-card"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <div class="row">
-            <img class="img-fluid m-auto mb-5" src="assets/img/timmscubawho.jpg" style="width: 80%; border: 2px solid white; padding: 12px;" alt="..." />        </div>
-        <!-- About Section Content-->
-        <div class="row">
-          <div class="col-lg-4 ms-auto">
-            <p class="lead">
-              I'm a Full-stack web developer with a penchant for underwater exploration who's motivated by the dynamic
-              capabilities of coding. I believe that we can change the world with the power of CODE. There is an
-              infinite need for code and infinite ways it can be applied. I am extremely motivated by the enumerable
-              possibilities, and by the projects and initiatives that can be undertaken with the right tools and the
-              right mindest.
-            </p>
-          </div>
-          <div class="col-lg-4 me-auto">
-            <p class="lead">
-              Tech is an industry, but it
-              <strike>can</strike>
-              <strike>should</strike>
-              MUST also be a gateway. There is no reason why we cannot marry the pursuit of innovation with the values
-              of humanity. I want to strive to contribute to the greater good of our planet. I want tech to lift up and
-              empower communities across the globe. I want tech to work for all of us, for a more equitable future...
-              and I'm ready to work with anyone that's trying to do the same.
-            </p>
-          </div>
-        </div>
-        <!-- About Section Button-->
-        <!-- <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-            <i class="fas fa-download me-2"></i>
-            Free Download!
-          </a>
-        </div>
-      </div> -->
-    </section>
     <!-- Contact Section-->
     <section class="page-section back" id="contact">
       <div class="container">
@@ -215,7 +219,7 @@
         <!-- Contact Section Form-->
         <div class="row justify-content-center">
           <div class="col-lg-8 col-xl-7 border">
-            <form>
+            <form action=”mailto:two.tone.snow@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
               <div class="form-floating">
                 <input class="form-control" id="inputName" type="text" placeholder="Enter your name..." />
                 <label for="inputName">Name</label>
@@ -308,13 +312,32 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
-                  <a href="https://ike-hawaii.netlify.app/" target="_blank"><img class="img-fluid rounded mb-5" src="assets/img/ikelogo-small.jpg" alt="..." /></a>
+                  <div>
+                  <!-- <a href="https://ike-hawaii.netlify.app/" target="_blank"><img class="img-fluid rounded mb-5" src="assets/img/ikelogo-small.jpg" alt="..." /></a> -->
+                  <a href="https://ike-hawaii.netlify.app/" target="_blank"><img class="img-fluid rounded" src="assets/img/ike-home.png" alt="..." /></a>
                   <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
+                  <p class="text-muted text-left">Vue.js/Rails/Heroku/Netlify</p>
+                </div>
+                  <p class="mb-4 strong">
                     'Ike Hawaii is an experience library and trip-planning application for users interested in visiting the Big Island of Hawaii.
                   </p>
+                  <ul class="text-muted text-left">
+                    <li>Designed and built a Ruby on Rails backend to store an experience library for users to build a custom vacation itinerary
+                    </li>
+                    <li>Integrated Mapbox GL API to generate global positioning and estimate drive time between destinations
+                    </li>
+                    <li>Constructed a Vue.js frontend, adding custom vanilla javascript and CSS to target specific functionality like mapping image coordinates, adding a slider, and customizing for mobile.
+                    </li>
+                  </ul>
+                  <div class="row">
+                  <p class="col-lg-3"><a href="https://ike-hawaii.netlify.app/" target="_blank">'Ike Hawaii: Deployed Site</a></p> 
+                  <p class="col-lg-3"><a href="https://www.youtube.com/watch?v=qUxHayLXcCE" target="_blank">Demo Video</a></p>
+                  <p class="col-lg-3"><a href="https://github.com/timmsnow/front-ike-hawaii-updated" target="_blank">Github Frontend Repository</a></p>
+                  <p class="col-lg-3"><a href="https://github.com/timmsnow/-ikehawaii" target="_blank">Github Backend Repository</a></p>
+                  </div>
                   <p>'Ike Hawaii was built using Ruby on Rails, VueJs, Vanilla Javascript, and Postgres SQL</p>
-                  <p><a href="https://ike-hawaii.netlify.app/" target="_blank">Visit 'Ike Hawaii</a> or <a href="https://github.com/timmsnow/front_ike_hawaii" target="_blank">View Github Repository</a></p>
+                  <p>The app is best experienced on Chrome desktop, but can be viewed on all browsers and is fully mobile responsive</p>
+
                   <button class="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window

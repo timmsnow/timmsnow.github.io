@@ -78,6 +78,10 @@ hr:not([size]) {
   height: 0.125rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 h6,
 .h6,
 h5,
@@ -193,6 +197,9 @@ ul ol {
 
 dt {
   font-weight: 700;
+}
+.margin {
+  padding: auto 30% auto 30%;
 }
 
 dd {
@@ -1409,6 +1416,11 @@ progress {
   .col-lg-7 {
     flex: 0 0 auto;
     width: 58.3333333333%;
+  }
+
+  .col-lg-88 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
   }
 
   .col-lg-8 {
